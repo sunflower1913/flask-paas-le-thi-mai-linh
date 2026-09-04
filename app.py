@@ -6,16 +6,6 @@ app = Flask(__name__)
 
 visit_count = 0 # Biến đếm lưu trong RAM của container
 
-
-@app.route("/api/counter")
-def counter():
-    global visit_count
-    visit_count += 1
-    return {
-        "so_lan_truy_cap": visit_count,
-        "ghi_chu": "So nay se MAT khi container khoi dong lai!"
-    }
-
 @app.route("/")
 def home():
     return f"""
