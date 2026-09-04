@@ -1,7 +1,6 @@
 import os
 from flask import Flask
-import datetime
-import platform
+import datetime, platform
 
 app = Flask(__name__)
 
