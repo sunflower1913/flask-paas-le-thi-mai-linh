@@ -29,7 +29,7 @@ def home():
         </style>
     </head>
     <body>
-        <h1>Ung dung Flask tren PaaS</h1>
+        <h1>Ung dung Flask tren PaaS - phien ban 2!</h1>
         <div class="box">
             <p><b>Sinh vien:</b> LE_THI_MAI_LINH – 233404050187</p>
             <p><b>Mon hoc:</b> Dien toan Dam may</p>
